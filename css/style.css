@@ -1,0 +1,221 @@
+@import "nullstyle.css";
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Funnel+Display:wght@300..800&family=Jura:wght@300..700&family=M+PLUS+1p&family=Michroma&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+.backgroundImg{
+    background-image: url(images/retro_komp.jpg);
+    background-size: cover; /* Или другое значение */
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.nameText{
+    position: absolute;
+    padding: 0 0 13% 140%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: right;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: normal;
+    font-size: 120px;
+}
+
+.jobText{
+    position: absolute;
+    padding: 0 0 23% 65%;
+    color: darkgrey;
+    text-align: right;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 25px;
+}
+
+.backgroundUnder{
+    width: 100%;
+    height: 1190px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: white;
+    padding: 910px 0 0 0;
+}
+
+.aboutMeText{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 60px;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+}
+
+.imgBioContainer{
+    width: 100px;
+    height: 200px;
+    overflow: hidden;
+}
+.imgBio{
+    position: absolute;
+    width: 16%;
+    top: 16%;
+    left: 25%;
+}
+
+.textBio{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    font-size: 20px;
+    max-width: 560px;
+    font-family: "Century Gothic", sans-serif;
+    line-height: 30px;
+}
+
+.buttonBio{
+    position: absolute;
+    color: darkgreen;
+    background-color: white;
+    border: 1px solid green;
+    width: 400px;
+    height: 60px;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 20px;
+    top: 36%;
+    left: 50%;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.buttonBio:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+.graphicBio{
+    position: absolute;
+    top: 58%;
+    left: 10%;
+    width: 90px;
+    height: 90px;
+}
+
+.webBio{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.animationBio{
+    position: absolute;
+    top: 73%;
+    left: 9%;
+    width: 125px;
+    height: 125px;
+}
+
+.developerBio{
+    position: absolute;
+    top: 74%;
+    left: 49.5%;
+    width: 110px;
+    height: 110px;
+}
+
+.name1{
+    position: absolute;
+    font-family: Century Gothic, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    top: 58%;
+    left: 19%;
+}
+
+.name2{
+    position: absolute;
+    font-family: Century Gothic, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    top: 58%;
+    left: 60%;
+}
+
+.name3{
+    position: absolute;
+    font-family: Century Gothic, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    top: 74.3%;
+    left: 19%;
+}
+
+.name4{
+    position: absolute;
+    font-family: Century Gothic, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    top: 74.3%;
+    left: 60%;
+}
+
+.text1{
+    position: absolute;
+    font-family: Century Gothic, sans-serif;
+    font-size: 20px;
+    top: 61.5%;
+    left: 19%;
+    line-height: 27px;
+}
+
+.text2{
+    position: absolute;
+    font-family: Century Gothic, sans-serif;
+    font-size: 20px;
+    top: 61.5%;
+    left: 60%;
+    line-height: 27px;
+}
+
+.text3{
+    position: absolute;
+    font-family: Century Gothic, sans-serif;
+    font-size: 20px;
+    top: 77.7%;
+    left: 19%;
+    line-height: 27px;
+}
+
+.text4{
+    position: absolute;
+    font-family: Century Gothic, sans-serif;
+    font-size: 20px;
+    top: 77.7%;
+    left: 60%;
+    line-height: 27px;
+}
+
+.nizText{
+    /*position: absolute;*/
+    font-family: Century Gothic, sans-serif;
+    font-size: 20px;
+
+}
+
+.nizLogo{
+    position: absolute;
+    left: 4%;
+    bottom: 1%;
+}
+
+.nizTgLogo{
+    position: absolute;
+    width: 3%;
+    bottom: 1.5%;
+    left: 85%;
+}
+.nizWaLogo{
+    position: absolute;
+    width: 3%;
+    bottom: 1.5%;
+    left: 92%;
+}
